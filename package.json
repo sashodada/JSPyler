@@ -1,0 +1,22 @@
+{
+  "name": "obfuscated_transpiler",
+  "version": "1.0.0",
+  "description": "A small, yet very obfuscated, confusing and confused transpiler, written in Node; transpiles JS to Python",
+  "main": "index.js",
+  "scripts": {
+    "start": "node out/index.js",
+    "compile": "tsc"
+  },
+  "author": "Aleksandar Shumakov",
+  "license": "ISC",
+  "dependencies": {
+    "@types/babylon": "^6.16.4",
+    "@types/lodash": "^4.14.120",
+    "@types/node": "^10.12.23",
+    "babylon": "^6.18.0",
+    "command-line-args": "^5.0.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.11",
+    "typescript": "^3.3.3"
+  }
+}
